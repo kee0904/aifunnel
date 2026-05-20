@@ -528,9 +528,9 @@ h1 {
 
   .hero-visual {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-    min-height: 520px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    min-height: 660px;
     padding-top: 48px;
   }
 
@@ -540,13 +540,19 @@ h1 {
     right: auto;
     top: auto;
     bottom: auto;
-    width: 128px;
-    max-width: 100%;
-    padding: 14px 13px;
+    width: 100%;
+    min-width: 0;
+    padding: 14px 16px;
   }
 
   .metric-card strong {
     font-size: 20px;
+  }
+
+  .metric-card-one,
+  .metric-card-two,
+  .metric-card-three {
+    right: auto;
   }
 
   .eyebrow {
@@ -561,7 +567,7 @@ h1 {
     right: auto;
     bottom: auto;
     justify-self: center;
-    margin-top: 110px;
+    margin-top: 54px;
     transform: none;
   }
 
